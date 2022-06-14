@@ -49,7 +49,8 @@ ansible-playbook site.yml -i inventory/prod.yml --ask-vault-pass
 winrm
 ```
 
-8. Приведите полный текст команды для поиска информации в документации ansible для модуля подключений ssh
+8. Приведите полный текст команды для поиска информации в документации ansible для модуля подключений ssh  
+
 **Ответ:**
 ```
 ansible-doc -t connection ssh
